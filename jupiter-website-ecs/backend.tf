@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket    = "nba67000-cloud-traning-terraform-remote-state"
-    key       = "jupiter-website-ecs.tfstate"
+    key       = "build/jupiter-website-ecs-cicd.tfstate"
     region    = "eu-west-3"
     profile   = "terraform-user"
   }
