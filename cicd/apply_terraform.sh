@@ -4,7 +4,8 @@
 set -eu
 
 # go to the main folder to use terraform commands
-cd jupiter-website-ecs 
+cd ..
+cd jupiter-website-ecs
 
 # initialize terraform
 terraform init
